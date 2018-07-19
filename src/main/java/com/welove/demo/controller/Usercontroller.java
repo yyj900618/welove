@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Usercontroller {
     @Autowired
     Userservice userservice;
+    //
 
     @RequestMapping(value = "getUserById",method = RequestMethod.POST)
     @ResponseBody
